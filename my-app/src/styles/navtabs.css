@@ -1,37 +1,38 @@
+/* navtabs.css */
 .nav {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    background-color: #333;
-    padding: 10px 0;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #333;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.nav-link.active {
+  color: #f2a365;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
   }
-  
+
   .nav-item {
-    margin: 0 10px;
+    margin: 10px 0;
   }
-  
-  .nav-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .nav-link:hover {
-    color: #ccc;
-  }
-  
-  .nav-link.active {
-    color: #f2a365;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .nav {
-      flex-direction: column;
-    }
-  
-    .nav-item {
-      margin: 10px 0;
-    }
-  }
-  
+}
