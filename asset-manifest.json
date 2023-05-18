@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mhamze23/M20_ReactPortfolio/static/css/main.8ccd440f.css",
-    "main.js": "/mhamze23/M20_ReactPortfolio/static/js/main.93656b07.js",
+    "main.js": "/mhamze23/M20_ReactPortfolio/static/js/main.03dca388.js",
     "static/media/Pokemon Battle Project.gif": "/mhamze23/M20_ReactPortfolio/static/media/Pokemon Battle Project.97974851bccbac646714.gif",
     "static/media/HM.Profile.jpg": "/mhamze23/M20_ReactPortfolio/static/media/HM.Profile.469281c18c3e71aa5ce3.jpg",
     "static/media/Horiseon Project.png": "/mhamze23/M20_ReactPortfolio/static/media/Horiseon Project.1dcb71a5093ae529275c.png",
@@ -11,10 +11,10 @@
     "static/media/TP Generator.png": "/mhamze23/M20_ReactPortfolio/static/media/TP Generator.0bb247276757849ffe11.png",
     "index.html": "/mhamze23/M20_ReactPortfolio/index.html",
     "main.8ccd440f.css.map": "/mhamze23/M20_ReactPortfolio/static/css/main.8ccd440f.css.map",
-    "main.93656b07.js.map": "/mhamze23/M20_ReactPortfolio/static/js/main.93656b07.js.map"
+    "main.03dca388.js.map": "/mhamze23/M20_ReactPortfolio/static/js/main.03dca388.js.map"
   },
   "entrypoints": [
     "static/css/main.8ccd440f.css",
-    "static/js/main.93656b07.js"
+    "static/js/main.03dca388.js"
   ]
 }
