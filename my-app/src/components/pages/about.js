@@ -1,22 +1,31 @@
 import React from 'react';
-import '../../styles/style.css';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import profilePic from "../../styles/images/HM.Profile.jpg";
 
 export default function About() {
   return (
-    <section className="about-section">
-      <div className="about-container">
-        <img className="about-image" src={profilePic} alt="Hamze at a restaurant" />
-        <div className="about-text">
-          <h1 className="about-heading">Greetings! I'm Hamze.</h1>
-          <p className="about-description">
-            Thank you for taking the time to visit my portfolio. I'm thrilled to have the opportunity to present my projects and demonstrate my proficiency in web development. I invite you to delve into my work and hopefully find inspiration in what you discover.
-          </p>
-          <p className="about-description">
-            As a Full Stack Web Developer, I possess a solid foundation in web development, backed by a certificate from the esteemed University of Toronto and an advanced diploma in Business Administration. Moreover, I have honed my skills through a graduate certificate in project management from Algonquin College. Drawing on my expertise in problem-solving, coding, and collaboration, my primary objective is to craft exceptional products that offer scalable solutions and effectively cater to the needs of end-users.
-          </p>
-        </div>
-      </div>
+    <section className="about-section py-5">
+      <Container className="about-container">
+        <Row className="align-items-center">
+          <Col md={6} className="d-flex justify-content-center">
+            <Image className="about-image img-fluid profile-pic" src={profilePic} alt="Hamze at a restaurant" />
+          </Col>
+          <Col md={6}>
+            <div className="about-text">
+              <h1 className="about-heading">Greetings! I'm Hamze.</h1>
+              <p className="about-description">
+                Welcome to my portfolio, and thank you for your interest in my work.
+                <br /><br />
+                It's an honor to share my projects with you, each showcasing my commitment to excellence in web development. Dive in, explore, and I hope you find inspiration amidst these digital canvases.
+                <br /><br />
+                With a strong grounding in full stack web development –– fortified by a certificate from the prestigious University of Toronto, an advanced Business Administration diploma, and a graduate certificate in project management from Algonquin College –– I am well-equipped to handle diverse web development challenges.
+                <br /><br />
+                My expertise in problem-solving, coding, and collaboration fuels my passion: to build outstanding, scalable solutions that are finely tuned to the specific needs of end-users.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

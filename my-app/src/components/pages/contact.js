@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../styles/style.css'
+import '../../styles/style.css';
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
@@ -26,10 +26,15 @@ function Contact() {
 		}
 	}
 
+	function handleSubmit(event) {
+		event.preventDefault();
+		
+	}
+
 	return (
 		<section className="contact-section">
 			<h2 className="contact-header">Let's Connect!</h2>
-			<form id="contact-form">
+			<form id="contact-form" onSubmit={handleSubmit}>
 				<div className="form-field">
 					<label htmlFor="name">Your Name</label>
 					<input type="text" id="name" name="name" value={name} onChange={handleInputChange} required/>

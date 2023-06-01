@@ -15,7 +15,7 @@ export default function Portfolio() {
       <div className="portfolio-container">
         {[
           {
-            title: 'Vetset Go',
+            title: 'VetSet Go',
             image: vetSetGo,
             repo: 'https://github.com/mhamze23/P2_Vetset-Go',
           },
@@ -50,7 +50,7 @@ export default function Portfolio() {
             <div className="project-info">
               <h4 className="project-title">{project.title}</h4>
               <div className="project-links">
-                <a href={project.repo}>GitHub</a>
+                <a href={project.repo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
