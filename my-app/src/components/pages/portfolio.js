@@ -7,6 +7,7 @@ import employeeTracker from '../../styles/images/employee tracker.png';
 import horiseonProject from '../../styles/images/Horiseon Project.png';
 import pokemonBattle from '../../styles/images/Pokemon Battle Project.gif';
 import tpGenerator from '../../styles/images/TP Generator.png';
+import hePrints from '../../styles/images/HappilyEverPrints.png';
 
 export default function Portfolio() {
   return (
@@ -43,6 +44,11 @@ export default function Portfolio() {
             title: 'Team Profile Generator',
             image: tpGenerator,
             repo: 'https://github.com/mhamze23/Module10_OPP',
+          },
+          {
+            title: 'Happily Ever Prints',
+            image: hePrints,
+            repo: 'https://github.com/mhamze23/P3_HappilyEverPrints',
           },
         ].map((project, index) => (
           <div className="project-card" key={index} onClick={() => window.open(project.repo)}>
